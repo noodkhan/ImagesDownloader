@@ -1,4 +1,4 @@
-<h2>Import All Python Libery </h2>
+<h2>Import All Python Librarys </h2>
 <p> pip playsound </p> 
 <h2>Login Unsplash API </h2>
 <p> API KEY FROM unsplash </p>
