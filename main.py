@@ -1,9 +1,5 @@
 # Developed by Noodkhan navin 
-
-# get API
-# get Image
-# Download Image
-
+# lasted commited : 9/21/2024 
 import os
 from os import listdir
 import requests 
