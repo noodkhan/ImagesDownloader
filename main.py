@@ -13,7 +13,7 @@ from playsound import playsound
 # get Image API
 def GetImage():
     try :
-        accessKey = "Z0pXiBgAu4tU598QMdMsUogK_7ZrRs67GFKyRPSQ6R8"
+        accessKey = "YOUR_API_KEY"                     # API KEY
         url = f'https://api.unsplash.com/photos/random/?client_id={accessKey}&orientation=landscape&h=4000&w=2160&fit=max'
         response  = requests.get(url)                  # HTTP get Resquest
         if response.status_code == 200 :
@@ -44,7 +44,7 @@ def DownloadImages(max):
 
 def MaxNumberInFile():
     max = -999999
-    filepath = "C:\\Users\\Nood\\python\\programImage\\"
+    filepath = "YOUR_FILE" # C:\\Users\\Nood\\python\\programImage\\
     folder = os.listdir(filepath)
     for file in folder : 
         if (file.endswith(".jpg")):
