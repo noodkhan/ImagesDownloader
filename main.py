@@ -39,7 +39,7 @@ def DownloadImages(max):
    
 
 def MaxNumberInFile():
-    max = -999999
+    max = 0
     filepath = "YOUR_FILE" # C:\\Users\\Nood\\python\\programImage\\
     folder = os.listdir(filepath)
     for file in folder : 
