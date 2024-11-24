@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiple Images Downloader from Unsplash (Python)</title>
 </head>
 <body>
     <h1>📸 Multiple Images Downloader from Unsplash (Python)</h1>
